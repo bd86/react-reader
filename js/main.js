@@ -4,6 +4,9 @@ var NewsBox = React.createClass({
   },
   componentDidMount: function () {
     $.ajax({
+      //MAKE ALL TO PHP FILE TO RENDER EXTERNAL RSS
+      //TEMP SOLUTION?
+      //https://ajax.googleapis.com/ajax/services/feed/load?v=1.0&q=
       url: this.props.url,
       dataType:"xml",
       //headers: {'Access-Control-Allow-Origin': '*',
