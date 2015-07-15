@@ -1,0 +1,10 @@
+# Junk #
+########
+
+*.xml
+*.zip
+_notes
+/vendor/
+/.ssh/
+sftp-config.json
+*.xml
