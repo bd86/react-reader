@@ -8,3 +8,4 @@ _notes
 /.ssh/
 sftp-config.json
 *.xml
+/node_modules/
